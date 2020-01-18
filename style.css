@@ -2,5 +2,5 @@ p {
   background-color: #e31134; 
   color: white; 
   padding: 5px;
-  width: max-content;
+  max-width: max-content;
 }
