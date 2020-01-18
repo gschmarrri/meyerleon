@@ -1,5 +1,5 @@
 p {
-  background-color: #e31134; 
+  background-color: #cd950c; 
   color: white; 
   padding: 5px;
   max-width: max-content;
@@ -8,4 +8,5 @@ p {
 
 img {
   float: left;
+  padding: 5px;
 }
