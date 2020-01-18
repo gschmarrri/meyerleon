@@ -3,6 +3,7 @@ p {
   color: white; 
   padding: 5px;
   max-width: max-content;
+  float: left;
 }
 
 img {
