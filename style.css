@@ -8,6 +8,7 @@ p {
 section {
   min-height: 250px;
   padding: 5px;
+  float: left;
 }
 
 img {
