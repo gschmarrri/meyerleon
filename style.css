@@ -3,7 +3,11 @@ p {
   color: white; 
   padding: 5px;
   max-width: max-content;
-  display: inline-block;
+}
+
+section {
+  min-height: 250px;
+  padding: 5px;
 }
 
 img {
