@@ -3,12 +3,15 @@ p {
   color: white; 
   padding: 5px;
   max-width: max-content;
-  transition: transform 2s;
+  animation: wobble 10s;
   font-family: "Arial", sans-serif;
 }
 
-p:hover {
-  transform: rotate(360deg);
+@wobble {
+   0%  { -webkit-transform:  rotate(0deg); }
+  20%  { -webkit-transform:  rotate(2deg); }
+  50%  { -webkit-transform:  rotate(-2deg); }
+  100%  { -webkit-transform:  rotate(0deg); }
 }
 
 section {
