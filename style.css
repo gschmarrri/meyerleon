@@ -3,11 +3,11 @@ p {
   color: white; 
   padding: 5px;
   max-width: max-content;
-  transition: width 2s;
+  transition: transform 2s;
 }
 
 p:hover {
-  font-size: 20px;
+  transform: rotate(360deg);
 }
 
 section {
