@@ -7,7 +7,7 @@ p {
   font-family: "Arial", sans-serif;
 }
 
-@wobble {
+@keyframes wobble {
    0%  { rotate: 0deg; }
   20%  { rotate: 2deg; }
   50%  { rotate: -2deg; }
