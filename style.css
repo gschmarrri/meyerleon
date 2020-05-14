@@ -29,7 +29,7 @@ img {
   margin: auto;
 }
 
-.centerImage {
+#centerImage {
   display: block;
   margin-left: auto;
   margin-right: auto;
